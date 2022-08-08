@@ -31,7 +31,7 @@ function handleTimeChange(second) {
 function handleTimeFinish() {
   gameStatus = GAME_STATUS.FINISHED
 
-  setTimerText('Game Over 😥')
+  setTimerText('Game Over😥')
   showPlayAgainButton()
 }
 
@@ -57,7 +57,7 @@ function handleColorClick(liElement) {
     const isWin = getInActiveColorList().length === 0
     if (isWin) {
       // set timer text
-      setTimerText('You win 🎉')
+      setTimerText('You win🎉')
       // show play again button
       showPlayAgainButton()
       timer.clear()
